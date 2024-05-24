@@ -10,19 +10,19 @@ Install frontend dependencies in /frontend with
 npm install
 ````
 
-Run migrations and create a superuser
+Run migrations and create a superuser in /backend
 ````
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 ````
 
-Add an entry to the db
-Go to http://localhost:8000/admin/
-Log in using the superuser credentials you created earlier.
-Find and click on "Messages" under the app name (myapp). This will take you to the list of messages.
-Click the "Add Message" button and add a message
-Click Save
+Add an entry to the db <br/>
+Go to http://localhost:8000/admin/ <br/>
+Log in using the superuser credentials you created earlier. <br/>
+Find and click on "Messages" under the app name (myapp). This will take you to the list of messages. <br/>
+Click the "Add Message" button and add a message <br/>
+Click Save <br/>
 
 To run the frontend in /frontend
 ````
