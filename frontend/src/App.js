@@ -1,11 +1,16 @@
 import React from 'react';
-import Home from './Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './HomePage';
+import PersonalBests from './PersonalBests';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/personal-bests" element={<PersonalBests />} />
+      </Routes>
+    </Router>
   );
 }
 
